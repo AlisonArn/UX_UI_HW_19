@@ -21,12 +21,12 @@ padding: 25px;}
 margin: 0 auto;
 font-family: Arial, Helvetica, sans-serif;}
 
-footer {background-color: #373738;
-padding: 15px;}
+footer {background-color: lightblue;
+padding: 10px;}
 
 footer ul {display: inline-block;
     vertical-align: top;
-    padding: 100px;}
+    padding: 50px;}
 
 button {color: navy;
 box-shadow: 2px 5px;}
