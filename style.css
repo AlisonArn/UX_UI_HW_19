@@ -1,0 +1,58 @@
+.inline-block {display: inline-block;
+vertical-align: top; }
+
+.logo {width: 23%;
+padding: 1%;
+text-align: center;}
+
+nav {width: 73%;
+padding: 1%;
+background-color: lightblue;}
+
+ul {width: 50%;
+margin-left: auto;}
+
+.welcome {text-align: center; padding-top: 10px; font-weight: bolder; font-size: larger;}
+
+.heroImg {height: 600px;
+padding: 25px;}
+
+.content {width: 500px;
+margin: 0 auto;
+font-family: Arial, Helvetica, sans-serif;}
+
+footer {background-color: #373738;
+padding: 15px;}
+
+footer ul {display: inline-block;
+    vertical-align: top;
+    padding: 100px;}
+
+button {color: navy;
+box-shadow: 2px 5px;}
+
+.mySkills {padding-top: 50px;}
+.flexContainer {display: flex; flex-direction: row; flex-wrap: nowrap; background-color: lightskyblue;}
+.userResearch {width: 33%; margin: 1px; padding: 2px;}
+.uiDesign {width: 33%;margin: 1px; padding: 2px;}
+.webDevelopment {width: 33%;margin: 1px; padding: 2px;}
+
+.workGrid {display: grid;}
+.houseWebsite {grid-area: 1 / 1 / span 2 /span 3;}
+.houseWords {grid-area: 1 / 4 / span 2 / span 6;}
+.antiCruelty {grid-area: 4 / 1 / span 2 / span 3;}
+.crueltyWords {grid-area: 4 / 4 / span 2 / span 6;}
+
+@media only screen and (max-width: 600) {
+    .flexContainer {display: flex; flex-direction: column; flex-wrap: nowrap; background-color: lightskyblue;}
+    .userResearch {width: 100%; margin: 1px; padding: 2px;}
+    .uiDesign {width: 100%;margin: 1px; padding: 2px;}
+    .webDevelopment {width: 100%;margin: 1px; padding: 2px;}
+
+    .workGrid {display: grid;}
+    .houseWebsite {grid-area: 1 / 1 / span 2 /span 3;}
+    .houseWords {grid-area: 1 / 4 / span 2 / span 6;}
+    .antiCruelty {grid-area: 4 / 1 / span 2 / span 3;}
+    .crueltyWords {grid-area: 4 / 4 / span 2 / span 6;}
+
+}
