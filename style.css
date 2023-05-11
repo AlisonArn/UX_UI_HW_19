@@ -1,26 +1,58 @@
-.grid-container {display: grid;
-grid-template-columns: 1fr 1fr;
-grid-gap: 10px;}
+.inline-block {display: inline-block;
+vertical-align: top; }
 
-.nav-item {padding-top: 40px;}
+.logo {width: 23%;
+padding: 1%;
+text-align: center;}
 
-.text-center {padding-top: 30px;}
+nav {width: 73%;
+padding: 1%;
+background-color: lightblue;}
 
-.theProcess {padding-top: 30px;}
+ul {width: 50%;
+margin-left: auto;}
 
-.userResearch {padding: 40px;}
+.welcome {text-align: center; padding-top: 10px; font-weight: bolder; font-size: larger;}
 
-.userResearch p {padding: 20px;}
+.heroImg {height: 600px;
+padding: 25px;}
 
-.matrixWords p {padding-top: 30px;
-font-size: larger;
-font-weight:bold;}
+.content {width: 500px;
+margin: 0 auto;
+font-family: Arial, Helvetica, sans-serif;}
 
-.problemStatement {padding-top: 60px;
-padding-bottom: 30px;}
+footer {background-color: lightblue;
+padding: 10px;}
 
-.Ideation {padding-top: 50px;}
+footer ul {display: inline-block;
+    vertical-align: top;
+    padding: 50px;}
 
-.usabilityTest {padding-top: 50px;}
+button {color: navy;
+box-shadow: 2px 5px;}
 
-.Prototyping {padding-top: 50px;}
+.mySkills {padding-top: 50px;}
+.flexContainer {display: flex; flex-direction: row; flex-wrap: nowrap; background-color: lightskyblue;}
+.userResearch {width: 33%; margin: 1px; padding: 2px;}
+.uiDesign {width: 33%;margin: 1px; padding: 2px;}
+.webDevelopment {width: 33%;margin: 1px; padding: 2px;}
+
+.workGrid {display: grid;}
+.houseWebsite {grid-area: 1 / 1 / span 2 /span 3;}
+.houseWords {grid-area: 1 / 4 / span 2 / span 6;}
+.antiCruelty {grid-area: 4 / 1 / span 2 / span 3;}
+.crueltyWords {grid-area: 4 / 4 / span 2 / span 6;}
+
+@media only screen and (max-width: 600) {
+    .flexContainer {display: flex; flex-direction: column; flex-wrap: nowrap; background-color: lightskyblue;}
+    .userResearch {width: 100%; margin: 1px; padding: 2px;}
+    .uiDesign {width: 100%;margin: 1px; padding: 2px;}
+    .webDevelopment {width: 100%;margin: 1px; padding: 2px;}
+
+    .workGrid {display: grid;}
+    .houseWebsite {grid-area: 1 / 1 / span 2 /span 3;}
+    .houseWords {grid-area: 1 / 4 / span 2 / span 6;}
+    .antiCruelty {grid-area: 4 / 1 / span 2 / span 3;}
+    .crueltyWords {grid-area: 4 / 4 / span 2 / span 6;}
+
+}
